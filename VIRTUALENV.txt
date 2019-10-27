@@ -1,0 +1,35 @@
+
+https://rukbottoland.com/blog/tutorial-de-python-virtualenv/
+
+
+VIRTUAL ENV 
+
+	virtualenv venv --python=python3 
+	
+	Cómo activar un entorno virtual de Python con virtualenv
+
+Para activar un entorno virtual de Python, se ejecuta el script activate de virtualenv instalado en el directorio bin/:
+
+$ cd env
+$ source bin/activate
+
+Cómo desactivar un entorno virtual de Python con virtualenv
+
+Para desactivar un entorno virtual, porque se necesita trabajar en otro diferente, se ejecuta el comando deactivate de virtualenv. No es necesario ir al directorio del entorno virtual para realizar esta operación:
+
+(env)$ deactivate
+$
+
+
+
+Cómo instalar paquetes en un entorno virtual de Python
+
+Después de activarlo, lo único que resta es instalar los paquetes que sean necesarios usando el instalador de paquetes pip.
+
+    Al momento de crear un entorno virtual, la utilidad virtualenv instala de manera automática el ejecutable pip.
+
+Por ejemplo, para instalar Django se ejecuta el siguiente comando:
+
+(env)$ pip install Django
+
+
